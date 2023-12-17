@@ -1,0 +1,99 @@
+.navigation{
+    display: flex;
+    align-items: center;
+    
+}
+
+.navigation .nav{
+     flex-grow: 3;
+     text-align: center;
+     margin-top: 1rem;
+     margin-left: 12rem;
+}
+
+.navigation .loginBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile{
+    border: none;
+    font-size: 2rem;
+    margin: 1rem;
+    background-color: transparent;
+     
+}
+.login{
+   background-color: #403F3F; 
+   border: none;
+   padding: 10px 30px;
+   margin-right:  1rem;
+   color: rgb(230, 230, 230);
+   font-weight: 500;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+     
+
+.profile{
+  
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    
+     
+}
+.login{
+  
+   padding: 8px 25px;
+   margin-right:  0.8rem;
+    
+   
+}
+
+}
+
+
+/* Medium devices (mobile maximum width 600px) */
+@media only screen and (max-width: 600px) {
+    .navigation{
+        display: flex;
+        align-items: center;
+         
+        
+    }
+    
+    .navigation .nav{
+          display: flex;
+          flex-grow: 0;
+          justify-content: flex-start;
+          margin-top: 1rem;
+         
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+.navigation .nav{
+     flex-grow: 1;
+     text-align: center;
+     margin-top: 0.8rem;
+    
+}
+.profile{
+   
+    font-size: 1.5rem;
+    margin: 0.8rem;
+  
+}
+.login{
+ 
+   padding: 8px 25px;
+   margin-right:  0.8rem;
+   
+}
+
+}

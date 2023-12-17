@@ -1,0 +1,21 @@
+.latest{
+   display: flex;
+   margin: 1rem 10rem;
+}
+marquee{
+    color: black;
+}
+.latestButton{
+    background-color: crimson;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 500;
+ 
+}
+@media only screen and (max-width: 700px) {
+    .latest{
+        margin: 1rem 5rem;
+     }
+}
