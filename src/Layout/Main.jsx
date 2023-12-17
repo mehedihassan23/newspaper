@@ -4,6 +4,7 @@ import './MainLayoutStyle.css'
 import HeadTItle from '../Shared/HeadTitle/HeadTItle'
 import Navigation from '../Shared/Navigation/Navigation'
 import LatestBar from '../components/LatestBar/LatestBar'
+import LeftNav from '../components/LeftNav/LeftNav'
 
 
 const Main = () => {
@@ -14,7 +15,7 @@ const Main = () => {
        <Navigation />
         <div className="mainLayOut">
             <div className="leftNav">
-              <h1>left nav</h1>
+              <LeftNav />
             </div>
             <div className="maincontent">
               <h1>main content</h1>
