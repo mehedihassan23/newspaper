@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.readButton{
+    border: none;
+    color: #FF8C47;
+    background-color: transparent;
+    margin-top: 0.5rem;
+    text-transform: capitalize;
+} 
+.mainFooter{
+    display: flex;
+     
+}
+@media only screen and (max-width: 768px){
+    
+}

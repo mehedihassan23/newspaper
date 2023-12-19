@@ -1,0 +1,46 @@
+ .loginTitle{
+    
+ }
+ .loginForm{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ form{
+    width: 20rem;
+    background-color: white;
+    padding: 3rem;
+ }
+ .loginTitle{
+    text-align: center;
+    margin: 1rem 0;
+ } 
+ .formDiv{
+   margin-bottom: 1rem;
+ }
+ .formDiv label{
+    display: block;
+ }
+ .formDiv input{
+    border: none;
+    outline: none;
+    background-color: rgb(194, 194, 194);
+    width: 15rem;
+    height: 1.5rem;
+    text-indent: 5px;
+ }
+ form input[type="submit"]{
+    border: none;
+    outline: none;
+    background-color: rgb(80, 80, 80);
+    width: 15rem;
+    height: 1.5rem;
+    color: white;
+    margin-bottom: 1rem; 
+    cursor: pointer;
+ }
+ .registerLink{
+    text-decoration: none;
+    color: crimson;
+ }

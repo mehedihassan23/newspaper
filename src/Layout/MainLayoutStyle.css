@@ -8,11 +8,19 @@
 .mainLayOut{
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 1rem;
 }
 .mainLayOut div:nth-child(2){
   flex-grow: 2;
   margin-left: 1rem;
 }
-  
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .mainLayOut div:nth-child(2){
+    flex-grow: 0;   
+  } 
+  .mainLayOut{
+    flex-direction: column;
+  }
+}

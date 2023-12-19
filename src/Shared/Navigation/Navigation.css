@@ -59,15 +59,15 @@
 @media only screen and (max-width: 600px) {
     .navigation{
         display: flex;
-        align-items: center;
-         
-        
+        align-items: center; 
+        justify-content: flex-start;
     }
     
     .navigation .nav{
           display: flex;
           flex-grow: 0;
           justify-content: flex-start;
+          margin-left: 5rem;
           margin-top: 1rem;
          
     }
